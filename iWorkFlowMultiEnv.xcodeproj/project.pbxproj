@@ -1,0 +1,1393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFC72112295F86100D51592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC72102295F86100D51592 /* AppDelegate.swift */; };
+		DDFC72132295F86100D51592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC72122295F86100D51592 /* ViewController.swift */; };
+		DDFC72162295F86100D51592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72142295F86100D51592 /* Main.storyboard */; };
+		DDFC72182295F86300D51592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72172295F86300D51592 /* Assets.xcassets */; };
+		DDFC721B2295F86300D51592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72192295F86300D51592 /* LaunchScreen.storyboard */; };
+		DDFC72262295F86300D51592 /* iWorkFlowMultiEnvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC72252295F86300D51592 /* iWorkFlowMultiEnvTests.swift */; };
+		DDFC72312295F86300D51592 /* iWorkFlowMultiEnvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC72302295F86300D51592 /* iWorkFlowMultiEnvUITests.swift */; };
+		DDFC72622295FDA800D51592 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC725E2295FD7B00D51592 /* Development.xcconfig */; };
+		DDFC72632295FDA800D51592 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC725F2295FD8500D51592 /* Staging.xcconfig */; };
+		DDFC72642295FDA800D51592 /* QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72602295FD9100D51592 /* QA.xcconfig */; };
+		DDFC72652295FDA800D51592 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72612295FDA000D51592 /* Production.xcconfig */; };
+		DDFC72662295FDA900D51592 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC725E2295FD7B00D51592 /* Development.xcconfig */; };
+		DDFC72672295FDA900D51592 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC725F2295FD8500D51592 /* Staging.xcconfig */; };
+		DDFC72682295FDA900D51592 /* QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72602295FD9100D51592 /* QA.xcconfig */; };
+		DDFC72692295FDA900D51592 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72612295FDA000D51592 /* Production.xcconfig */; };
+		DDFC726A2295FDAB00D51592 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC725E2295FD7B00D51592 /* Development.xcconfig */; };
+		DDFC726B2295FDAB00D51592 /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC725F2295FD8500D51592 /* Staging.xcconfig */; };
+		DDFC726C2295FDAB00D51592 /* QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72602295FD9100D51592 /* QA.xcconfig */; };
+		DDFC726D2295FDAB00D51592 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDFC72612295FDA000D51592 /* Production.xcconfig */; };
+		DDFC726F2296050B00D51592 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC726E2296050B00D51592 /* Enviroment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFC72222295F86300D51592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFC72052295F86100D51592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFC720C2295F86100D51592;
+			remoteInfo = iWorkFlowMultiEnv;
+		};
+		DDFC722D2295F86300D51592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFC72052295F86100D51592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFC720C2295F86100D51592;
+			remoteInfo = iWorkFlowMultiEnv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDFC720D2295F86100D51592 /* iWorkFlowMultiEnv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWorkFlowMultiEnv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC72102295F86100D51592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDFC72122295F86100D51592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDFC72152295F86100D51592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFC72172295F86300D51592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFC721A2295F86300D51592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDFC721C2295F86300D51592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC72212295F86300D51592 /* iWorkFlowMultiEnvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWorkFlowMultiEnvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC72252295F86300D51592 /* iWorkFlowMultiEnvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkFlowMultiEnvTests.swift; sourceTree = "<group>"; };
+		DDFC72272295F86300D51592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC722C2295F86300D51592 /* iWorkFlowMultiEnvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWorkFlowMultiEnvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC72302295F86300D51592 /* iWorkFlowMultiEnvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWorkFlowMultiEnvUITests.swift; sourceTree = "<group>"; };
+		DDFC72322295F86300D51592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFC725E2295FD7B00D51592 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		DDFC725F2295FD8500D51592 /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		DDFC72602295FD9100D51592 /* QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QA.xcconfig; sourceTree = "<group>"; };
+		DDFC72612295FDA000D51592 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		DDFC726E2296050B00D51592 /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFC720A2295F86100D51592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC721E2295F86300D51592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC72292295F86300D51592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFC72042295F86100D51592 = {
+			isa = PBXGroup;
+			children = (
+				DDFC720F2295F86100D51592 /* iWorkFlowMultiEnv */,
+				DDFC72242295F86300D51592 /* iWorkFlowMultiEnvTests */,
+				DDFC722F2295F86300D51592 /* iWorkFlowMultiEnvUITests */,
+				DDFC720E2295F86100D51592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFC720E2295F86100D51592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC720D2295F86100D51592 /* iWorkFlowMultiEnv.app */,
+				DDFC72212295F86300D51592 /* iWorkFlowMultiEnvTests.xctest */,
+				DDFC722C2295F86300D51592 /* iWorkFlowMultiEnvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFC720F2295F86100D51592 /* iWorkFlowMultiEnv */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC72102295F86100D51592 /* AppDelegate.swift */,
+				DDFC72122295F86100D51592 /* ViewController.swift */,
+				DDFC72142295F86100D51592 /* Main.storyboard */,
+				DDFC72172295F86300D51592 /* Assets.xcassets */,
+				DDFC72192295F86300D51592 /* LaunchScreen.storyboard */,
+				DDFC721C2295F86300D51592 /* Info.plist */,
+				DDFC725E2295FD7B00D51592 /* Development.xcconfig */,
+				DDFC725F2295FD8500D51592 /* Staging.xcconfig */,
+				DDFC72602295FD9100D51592 /* QA.xcconfig */,
+				DDFC72612295FDA000D51592 /* Production.xcconfig */,
+				DDFC726E2296050B00D51592 /* Enviroment.swift */,
+			);
+			path = iWorkFlowMultiEnv;
+			sourceTree = "<group>";
+		};
+		DDFC72242295F86300D51592 /* iWorkFlowMultiEnvTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC72252295F86300D51592 /* iWorkFlowMultiEnvTests.swift */,
+				DDFC72272295F86300D51592 /* Info.plist */,
+			);
+			path = iWorkFlowMultiEnvTests;
+			sourceTree = "<group>";
+		};
+		DDFC722F2295F86300D51592 /* iWorkFlowMultiEnvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC72302295F86300D51592 /* iWorkFlowMultiEnvUITests.swift */,
+				DDFC72322295F86300D51592 /* Info.plist */,
+			);
+			path = iWorkFlowMultiEnvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFC720C2295F86100D51592 /* iWorkFlowMultiEnv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC72352295F86300D51592 /* Build configuration list for PBXNativeTarget "iWorkFlowMultiEnv" */;
+			buildPhases = (
+				DDFC72092295F86100D51592 /* Sources */,
+				DDFC720A2295F86100D51592 /* Frameworks */,
+				DDFC720B2295F86100D51592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iWorkFlowMultiEnv;
+			productName = iWorkFlowMultiEnv;
+			productReference = DDFC720D2295F86100D51592 /* iWorkFlowMultiEnv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFC72202295F86300D51592 /* iWorkFlowMultiEnvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC72382295F86300D51592 /* Build configuration list for PBXNativeTarget "iWorkFlowMultiEnvTests" */;
+			buildPhases = (
+				DDFC721D2295F86300D51592 /* Sources */,
+				DDFC721E2295F86300D51592 /* Frameworks */,
+				DDFC721F2295F86300D51592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFC72232295F86300D51592 /* PBXTargetDependency */,
+			);
+			name = iWorkFlowMultiEnvTests;
+			productName = iWorkFlowMultiEnvTests;
+			productReference = DDFC72212295F86300D51592 /* iWorkFlowMultiEnvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDFC722B2295F86300D51592 /* iWorkFlowMultiEnvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFC723B2295F86300D51592 /* Build configuration list for PBXNativeTarget "iWorkFlowMultiEnvUITests" */;
+			buildPhases = (
+				DDFC72282295F86300D51592 /* Sources */,
+				DDFC72292295F86300D51592 /* Frameworks */,
+				DDFC722A2295F86300D51592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFC722E2295F86300D51592 /* PBXTargetDependency */,
+			);
+			name = iWorkFlowMultiEnvUITests;
+			productName = iWorkFlowMultiEnvUITests;
+			productReference = DDFC722C2295F86300D51592 /* iWorkFlowMultiEnvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFC72052295F86100D51592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = GSE;
+				TargetAttributes = {
+					DDFC720C2295F86100D51592 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					DDFC72202295F86300D51592 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DDFC720C2295F86100D51592;
+					};
+					DDFC722B2295F86300D51592 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = DDFC720C2295F86100D51592;
+					};
+				};
+			};
+			buildConfigurationList = DDFC72082295F86100D51592 /* Build configuration list for PBXProject "iWorkFlowMultiEnv" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFC72042295F86100D51592;
+			productRefGroup = DDFC720E2295F86100D51592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFC720C2295F86100D51592 /* iWorkFlowMultiEnv */,
+				DDFC72202295F86300D51592 /* iWorkFlowMultiEnvTests */,
+				DDFC722B2295F86300D51592 /* iWorkFlowMultiEnvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFC720B2295F86100D51592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC721B2295F86300D51592 /* LaunchScreen.storyboard in Resources */,
+				DDFC72182295F86300D51592 /* Assets.xcassets in Resources */,
+				DDFC72652295FDA800D51592 /* Production.xcconfig in Resources */,
+				DDFC72622295FDA800D51592 /* Development.xcconfig in Resources */,
+				DDFC72632295FDA800D51592 /* Staging.xcconfig in Resources */,
+				DDFC72642295FDA800D51592 /* QA.xcconfig in Resources */,
+				DDFC72162295F86100D51592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC721F2295F86300D51592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC72672295FDA900D51592 /* Staging.xcconfig in Resources */,
+				DDFC72692295FDA900D51592 /* Production.xcconfig in Resources */,
+				DDFC72682295FDA900D51592 /* QA.xcconfig in Resources */,
+				DDFC72662295FDA900D51592 /* Development.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC722A2295F86300D51592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC726B2295FDAB00D51592 /* Staging.xcconfig in Resources */,
+				DDFC726D2295FDAB00D51592 /* Production.xcconfig in Resources */,
+				DDFC726C2295FDAB00D51592 /* QA.xcconfig in Resources */,
+				DDFC726A2295FDAB00D51592 /* Development.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFC72092295F86100D51592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC72132295F86100D51592 /* ViewController.swift in Sources */,
+				DDFC72112295F86100D51592 /* AppDelegate.swift in Sources */,
+				DDFC726F2296050B00D51592 /* Enviroment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC721D2295F86300D51592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC72262295F86300D51592 /* iWorkFlowMultiEnvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFC72282295F86300D51592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFC72312295F86300D51592 /* iWorkFlowMultiEnvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFC72232295F86300D51592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFC720C2295F86100D51592 /* iWorkFlowMultiEnv */;
+			targetProxy = DDFC72222295F86300D51592 /* PBXContainerItemProxy */;
+		};
+		DDFC722E2295F86300D51592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFC720C2295F86100D51592 /* iWorkFlowMultiEnv */;
+			targetProxy = DDFC722D2295F86300D51592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFC72142295F86100D51592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFC72152295F86100D51592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFC72192295F86300D51592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFC721A2295F86300D51592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFC723E2295FB7600D51592 /* Debug (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (Dev)";
+		};
+		DDFC723F2295FB7600D51592 /* Debug (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (Dev)";
+		};
+		DDFC72402295FB7600D51592 /* Debug (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Debug (Dev)";
+		};
+		DDFC72412295FB7600D51592 /* Debug (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Debug (Dev)";
+		};
+		DDFC72422295FB8700D51592 /* Debug (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (Stg)";
+		};
+		DDFC72432295FB8700D51592 /* Debug (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (Stg)";
+		};
+		DDFC72442295FB8700D51592 /* Debug (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Debug (Stg)";
+		};
+		DDFC72452295FB8700D51592 /* Debug (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Debug (Stg)";
+		};
+		DDFC72462295FB9100D51592 /* Debug (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (Prod)";
+		};
+		DDFC72472295FB9100D51592 /* Debug (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (Prod)";
+		};
+		DDFC72482295FB9100D51592 /* Debug (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Debug (Prod)";
+		};
+		DDFC72492295FB9100D51592 /* Debug (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Debug (Prod)";
+		};
+		DDFC724A2295FBE100D51592 /* Debug (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug (QA)";
+		};
+		DDFC724B2295FBE100D51592 /* Debug (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug (QA)";
+		};
+		DDFC724C2295FBE100D51592 /* Debug (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Debug (QA)";
+		};
+		DDFC724D2295FBE100D51592 /* Debug (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Debug (QA)";
+		};
+		DDFC724E2295FBED00D51592 /* Release (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (Dev)";
+		};
+		DDFC724F2295FBED00D51592 /* Release (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (Dev)";
+		};
+		DDFC72502295FBED00D51592 /* Release (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Release (Dev)";
+		};
+		DDFC72512295FBED00D51592 /* Release (Dev) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725E2295FD7B00D51592 /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Release (Dev)";
+		};
+		DDFC72522295FBF900D51592 /* Release (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (Stg)";
+		};
+		DDFC72532295FBF900D51592 /* Release (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (Stg)";
+		};
+		DDFC72542295FBF900D51592 /* Release (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Release (Stg)";
+		};
+		DDFC72552295FBF900D51592 /* Release (Stg) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC725F2295FD8500D51592 /* Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Release (Stg)";
+		};
+		DDFC72562295FC0100D51592 /* Release (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (QA)";
+		};
+		DDFC72572295FC0100D51592 /* Release (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (QA)";
+		};
+		DDFC72582295FC0100D51592 /* Release (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Release (QA)";
+		};
+		DDFC72592295FC0100D51592 /* Release (QA) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72602295FD9100D51592 /* QA.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Release (QA)";
+		};
+		DDFC725A2295FC1300D51592 /* Release (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (Prod)";
+		};
+		DDFC725B2295FC1300D51592 /* Release (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release (Prod)";
+		};
+		DDFC725C2295FC1300D51592 /* Release (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWorkFlowMultiEnv.app/iWorkFlowMultiEnv";
+			};
+			name = "Release (Prod)";
+		};
+		DDFC725D2295FC1300D51592 /* Release (Prod) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC72612295FDA000D51592 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J854C662N;
+				INFOPLIST_FILE = iWorkFlowMultiEnvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ni.lafise.iWorkFlowMultiEnvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iWorkFlowMultiEnv;
+			};
+			name = "Release (Prod)";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFC72082295F86100D51592 /* Build configuration list for PBXProject "iWorkFlowMultiEnv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC724A2295FBE100D51592 /* Debug (QA) */,
+				DDFC72462295FB9100D51592 /* Debug (Prod) */,
+				DDFC72422295FB8700D51592 /* Debug (Stg) */,
+				DDFC723E2295FB7600D51592 /* Debug (Dev) */,
+				DDFC725A2295FC1300D51592 /* Release (Prod) */,
+				DDFC72562295FC0100D51592 /* Release (QA) */,
+				DDFC72522295FBF900D51592 /* Release (Stg) */,
+				DDFC724E2295FBED00D51592 /* Release (Dev) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug (Dev)";
+		};
+		DDFC72352295F86300D51592 /* Build configuration list for PBXNativeTarget "iWorkFlowMultiEnv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC724B2295FBE100D51592 /* Debug (QA) */,
+				DDFC72472295FB9100D51592 /* Debug (Prod) */,
+				DDFC72432295FB8700D51592 /* Debug (Stg) */,
+				DDFC723F2295FB7600D51592 /* Debug (Dev) */,
+				DDFC725B2295FC1300D51592 /* Release (Prod) */,
+				DDFC72572295FC0100D51592 /* Release (QA) */,
+				DDFC72532295FBF900D51592 /* Release (Stg) */,
+				DDFC724F2295FBED00D51592 /* Release (Dev) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug (Dev)";
+		};
+		DDFC72382295F86300D51592 /* Build configuration list for PBXNativeTarget "iWorkFlowMultiEnvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC724C2295FBE100D51592 /* Debug (QA) */,
+				DDFC72482295FB9100D51592 /* Debug (Prod) */,
+				DDFC72442295FB8700D51592 /* Debug (Stg) */,
+				DDFC72402295FB7600D51592 /* Debug (Dev) */,
+				DDFC725C2295FC1300D51592 /* Release (Prod) */,
+				DDFC72582295FC0100D51592 /* Release (QA) */,
+				DDFC72542295FBF900D51592 /* Release (Stg) */,
+				DDFC72502295FBED00D51592 /* Release (Dev) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug (Dev)";
+		};
+		DDFC723B2295F86300D51592 /* Build configuration list for PBXNativeTarget "iWorkFlowMultiEnvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC724D2295FBE100D51592 /* Debug (QA) */,
+				DDFC72492295FB9100D51592 /* Debug (Prod) */,
+				DDFC72452295FB8700D51592 /* Debug (Stg) */,
+				DDFC72412295FB7600D51592 /* Debug (Dev) */,
+				DDFC725D2295FC1300D51592 /* Release (Prod) */,
+				DDFC72592295FC0100D51592 /* Release (QA) */,
+				DDFC72552295FBF900D51592 /* Release (Stg) */,
+				DDFC72512295FBED00D51592 /* Release (Dev) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug (Dev)";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFC72052295F86100D51592 /* Project object */;
+}

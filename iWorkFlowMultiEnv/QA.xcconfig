@@ -1,0 +1,22 @@
+//
+//  QA.xcconfig
+//  iWorkFlowMultiEnv
+//
+//  Created by GSE on 22/5/19.
+//  Copyright © 2019 GSE. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Configs server
+APP_ENVIRONMENT = QA
+API_URL = https:/$()/www.qa.example.test.com
+
+// Keys
+API_KEY = 00002h9l910_pzljd66425271
+
+// App Settings
+APP_NAME = Demo (QA)
+APP_BUNDLE_ID = com.example.demo.qa
+APP_VERSION = 2.0

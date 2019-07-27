@@ -1,0 +1,22 @@
+//
+//  Development.xcconfig
+//  iWorkFlowMultiEnv
+//
+//  Created by GSE on 22/5/19.
+//  Copyright © 2019 GSE. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Configs server
+APP_ENVIRONMENT = Development
+API_URL = http:/$()/localhost:3000
+
+// Keys
+API_KEY = 783h9l90_pxljd8000271
+
+// App Settings
+APP_NAME = Demo (dev)
+APP_BUNDLE_ID = com.example.demo.dev
+APP_VERSION = 2.0

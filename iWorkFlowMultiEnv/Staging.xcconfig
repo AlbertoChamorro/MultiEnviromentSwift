@@ -1,0 +1,22 @@
+//
+//  Staging.xcconfig
+//  iWorkFlowMultiEnv
+//
+//  Created by GSE on 22/5/19.
+//  Copyright © 2019 GSE. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// Configs server
+APP_ENVIRONMENT = Staging
+API_URL = https:/$()/www.staging.example.test.com
+
+// Keys
+API_KEY = 6454h9l910_pzljd804312271
+
+// App Settings
+APP_NAME = Demo (stg)
+APP_BUNDLE_ID = com.example.demo.stg
+APP_VERSION = 2.0
